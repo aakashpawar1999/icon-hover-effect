@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img {
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+	transition: all 0.4s;
+}
+
+.logo img:hover {
+	width: 120px;
+	height: 120px;
+}
